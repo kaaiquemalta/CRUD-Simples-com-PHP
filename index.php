@@ -27,7 +27,7 @@
 
   	<div class="container">
 
-	  	<?php $mysqli = new mysqli('localhost', 'root', '..oops..', 'crud') or die(mysqli_error($mysqli)); 
+	  	<?php $mysqli = new mysqli('..oops..', '..oops..', '..oops..', '..oops..') or die(mysqli_error($mysqli)); 
 	  		  $result = $mysqli->query("SELECT * FROM data") or die ($mysqli->error);
 	  		  //pre_r($result);
 	  	?>
